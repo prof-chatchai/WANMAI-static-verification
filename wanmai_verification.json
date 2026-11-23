@@ -1,0 +1,321 @@
+{
+ "claims_check": {
+  "paper_workflow_callers_expected": [
+   "api/surgery_import_csv.php",
+   "includes/surgery_post_handler.php",
+   "kpi_patient_checklist.php",
+   "protocol3_cohort_dashboard.php",
+   "protocol3_matrix.php",
+   "protocol3_patient_progress.php"
+  ],
+  "workflow_callers_found": [
+   "api/surgery_import_csv.php",
+   "includes/surgery_post_handler.php",
+   "kpi_patient_checklist.php",
+   "protocol3_cohort_dashboard.php",
+   "protocol3_matrix.php",
+   "protocol3_patient_progress.php"
+  ],
+  "all_six_found": true,
+  "other_P3_referrers": [
+   "database/seed_clinical_guideline_milestones.php",
+   "database/seed_protocol3.php",
+   "includes/PnkProtocolIIIGuideline.php"
+  ],
+  "engine_referrers_outside_definition": [
+   "includes/PnkProtocolIIIGuideline.php",
+   "tests/registry_gating_test.php"
+  ],
+  "modules_expected_existing": 12
+ },
+ "generated": "2026-11-23T22:39:31",
+ "root_name": "wanmai",
+ "php_files_scanned": 216,
+ "symbol_matches": {
+  "Protocol3Service": [
+   "api/surgery_import_csv.php",
+   "database/seed_clinical_guideline_milestones.php",
+   "database/seed_protocol3.php",
+   "includes/PnkProtocolIIIGuideline.php",
+   "includes/Protocol3Service.php",
+   "includes/surgery_post_handler.php",
+   "kpi_patient_checklist.php",
+   "protocol3_cohort_dashboard.php",
+   "protocol3_matrix.php",
+   "protocol3_patient_progress.php"
+  ],
+  "autoDeriveFromSurgeries": [
+   "api/surgery_import_csv.php",
+   "includes/Protocol3Service.php",
+   "includes/surgery_post_handler.php"
+  ],
+  "ClinicalGuidelineEngine": [
+   "includes/ClinicalGuidelineEngine.php",
+   "includes/PnkProtocolIIIGuideline.php",
+   "tests/registry_gating_test.php"
+  ]
+ },
+ "callers_Protocol3Service": [
+  "api/surgery_import_csv.php",
+  "database/seed_clinical_guideline_milestones.php",
+  "database/seed_protocol3.php",
+  "includes/PnkProtocolIIIGuideline.php",
+  "includes/surgery_post_handler.php",
+  "kpi_patient_checklist.php",
+  "protocol3_cohort_dashboard.php",
+  "protocol3_matrix.php",
+  "protocol3_patient_progress.php"
+ ],
+ "n_callers_Protocol3Service": 9,
+ "callers_ClinicalGuidelineEngine_outside_definition": [
+  "includes/PnkProtocolIIIGuideline.php",
+  "tests/registry_gating_test.php"
+ ],
+ "modules": {
+  "surgery_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "91cb21b20d685af8e99ee916060623abf8d8f91ecceafd88b38a8c4d35223d64",
+   "mtime": "2026-08-09T10:22:58"
+  },
+  "patient_registration": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "e1a8b8b06028c02b075c18cf100e895fa776895698f1e75d855a433a1ea6f116",
+   "mtime": "2026-08-08T20:56:21"
+  },
+  "child_development_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "ab41761473af4b80531a0a57393771340925c43a94cdff485cf21e2d1667220e",
+   "mtime": "2026-08-12T21:54:20"
+  },
+  "ent_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "68fd9688d9cdfc5399a80cafd0606a136a488b692cfadedc6f2e7504b69be0ee",
+   "mtime": "2026-05-20T11:57:26"
+  },
+  "patient_view": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "d3fecb06f4a0dbadcf434a1842e315abf9fe0eeeef010d4918cd21662568bfd4",
+   "mtime": "2026-10-11T15:26:33"
+  },
+  "orthodontic_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "ec1164f50a981e13df7d4e295c1fd4e83e10ae97071bf3b25b53bf62098efaf2",
+   "mtime": "2026-08-08T20:57:17"
+  },
+  "nam_treatment_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "8789fabdbfcb281595dd5d8c830784cf2205c40558bad7ca05efd8229c1357f4",
+   "mtime": "2026-04-24T10:26:04"
+  },
+  "psychiatry_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "6344d655d8e7512130b99b98fddbba2677357f6846631301860ba261ea8836b5",
+   "mtime": "2026-08-09T10:44:24"
+  },
+  "treatment_tracking": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "22db6d324cdb6ea5b41d082472668d6f5a0c5bb93d2d020b8214a8b2f02287a9",
+   "mtime": "2026-08-08T20:55:46"
+  },
+  "speech_therapy_dashboard": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "52ed31f687e0a1fa6c1d9bf28b167733b615b0b065e0c25f2f64d626f857707f",
+   "mtime": "2026-08-10T22:55:29"
+  },
+  "patient_management": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "a85e07bc0c53bafffdfbe1980cc784cad2c84ee8b1ff723db3f9b7ecd2807adf",
+   "mtime": "2026-10-11T15:20:47"
+  },
+  "population_analytics": {
+   "exists": false
+  },
+  "appointment_scheduling": {
+   "exists": true,
+   "php_l_ok": true,
+   "requirePermission": true,
+   "sha256": "6c1552824e846b173c3ae34c11b715a04a986b886b6ffab33b962de6f5db47c0",
+   "mtime": "2026-04-24T10:26:03"
+  }
+ },
+ "modules_existing": 12,
+ "modules_total": 13,
+ "modules_data_integrity": 0,
+ "manifest": {
+  "api/surgery_import_csv.php": {
+   "sha256": "4c3af72aa2572fe7a7f64b614e73e63b3a426c6fc14051ca71711251afa3bc4c",
+   "bytes": 6129,
+   "mtime": "2026-08-10T23:10:34"
+  },
+  "appointment_scheduling.php": {
+   "sha256": "6c1552824e846b173c3ae34c11b715a04a986b886b6ffab33b962de6f5db47c0",
+   "bytes": 23974,
+   "mtime": "2026-04-24T10:26:03"
+  },
+  "child_development_dashboard.php": {
+   "sha256": "ab41761473af4b80531a0a57393771340925c43a94cdff485cf21e2d1667220e",
+   "bytes": 45175,
+   "mtime": "2026-08-12T21:54:20"
+  },
+  "config/permissions.php": {
+   "sha256": "6956e8d51b90554533fc0b42d0fa84ba27936a48b21f41c05a72cfc9e8c85806",
+   "bytes": 15771,
+   "mtime": "2026-10-11T16:31:19"
+  },
+  "database/protocol3_schema.sql": {
+   "sha256": "7bb6728aca9294d780c0b8c6d6752d5eea1c558817999b59a7622555195bd4c9",
+   "bytes": 9929,
+   "mtime": "2026-06-26T10:21:35"
+  },
+  "database/seed_clinical_guideline_milestones.php": {
+   "sha256": "7d593b7234ef6c974049f41bde7b19f9d6fd4d3a45b0b3e418c44f7986e9963a",
+   "bytes": 2419,
+   "mtime": "2026-08-12T12:40:22"
+  },
+  "database/seed_protocol3.php": {
+   "sha256": "0068e3d3140f8c699a44d72e1b15d86126926d4d8ab8c3c8b0def06c8fc25e1e",
+   "bytes": 11252,
+   "mtime": "2026-08-10T23:18:57"
+  },
+  "ent_dashboard.php": {
+   "sha256": "68fd9688d9cdfc5399a80cafd0606a136a488b692cfadedc6f2e7504b69be0ee",
+   "bytes": 15387,
+   "mtime": "2026-05-20T11:57:26"
+  },
+  "includes/ClinicalGuidelineEngine.php": {
+   "sha256": "c32862b52ac7faeb0399c8b61d87419965669443e5ea37f0e2dfdc9bdbda62c8",
+   "bytes": 4314,
+   "mtime": "2026-08-12T12:14:36"
+  },
+  "includes/PnkProtocolIIIGuideline.php": {
+   "sha256": "9edde9eea6e1ca12a3fda55e9f022472398925d36df30292c4a9d13e696d446b",
+   "bytes": 3558,
+   "mtime": "2026-08-12T12:13:36"
+  },
+  "includes/Protocol3Service.php": {
+   "sha256": "4c84f7a6e9b47778084af9aa2165fbe91d1dfb2b078d3076c28254cf5be1e13d",
+   "bytes": 24752,
+   "mtime": "2026-08-12T12:09:42"
+  },
+  "includes/navbar.php": {
+   "sha256": "87a222e24d3ac47e778e8912ababf3209e11e7aaa37f9d874cb128817dd7b60d",
+   "bytes": 56268,
+   "mtime": "2026-10-11T16:31:19"
+  },
+  "includes/patient_helpers.php": {
+   "sha256": "93ea4bfab15522e07423166d2e42879fa7d061397d68c47ec7c20acba8969470",
+   "bytes": 24679,
+   "mtime": "2026-07-07T15:50:52"
+  },
+  "includes/protocol3_data.php": {
+   "sha256": "7d25b884b22e5c20f7b4f7dd0012639c6e431592dba0a7e827f77a54f9579d7c",
+   "bytes": 14089,
+   "mtime": "2026-06-26T10:20:26"
+  },
+  "includes/surgery_post_handler.php": {
+   "sha256": "2d8ac26e241274c1a067cccc8fad238b711b682993a228e8cc3dd00b965d72b4",
+   "bytes": 2588,
+   "mtime": "2026-06-26T11:00:57"
+  },
+  "kpi_patient_checklist.php": {
+   "sha256": "31390d146c5fb05d977a05d5773baf7a507e9bfae3fefcaf134633446356af8c",
+   "bytes": 17298,
+   "mtime": "2026-08-10T23:10:20"
+  },
+  "multidisciplinary_team.php": {
+   "sha256": "284356504fa35e4b3d0243ab1abb7faf2bef623b22f756fe317cfc78148473d2",
+   "bytes": 34229,
+   "mtime": "2026-08-09T10:32:08"
+  },
+  "nam_treatment_dashboard.php": {
+   "sha256": "8789fabdbfcb281595dd5d8c830784cf2205c40558bad7ca05efd8229c1357f4",
+   "bytes": 50250,
+   "mtime": "2026-04-24T10:26:04"
+  },
+  "orthodontic_dashboard.php": {
+   "sha256": "ec1164f50a981e13df7d4e295c1fd4e83e10ae97071bf3b25b53bf62098efaf2",
+   "bytes": 1120,
+   "mtime": "2026-08-08T20:57:17"
+  },
+  "patient_management.php": {
+   "sha256": "a85e07bc0c53bafffdfbe1980cc784cad2c84ee8b1ff723db3f9b7ecd2807adf",
+   "bytes": 11739,
+   "mtime": "2026-10-11T15:20:47"
+  },
+  "patient_registration.php": {
+   "sha256": "e1a8b8b06028c02b075c18cf100e895fa776895698f1e75d855a433a1ea6f116",
+   "bytes": 9131,
+   "mtime": "2026-08-08T20:56:21"
+  },
+  "patient_view.php": {
+   "sha256": "d3fecb06f4a0dbadcf434a1842e315abf9fe0eeeef010d4918cd21662568bfd4",
+   "bytes": 3570,
+   "mtime": "2026-10-11T15:26:33"
+  },
+  "population_analytics.php": {
+   "missing": true
+  },
+  "protocol3_cohort_dashboard.php": {
+   "sha256": "300864e54de0eb2ca4f87af9c71af6e4f2e7d7a21ec96eec14078faa9b5ae67a",
+   "bytes": 4000,
+   "mtime": "2026-08-08T20:55:05"
+  },
+  "protocol3_matrix.php": {
+   "sha256": "ab9dc478cd0e3168a7a0dc0f5e8f2f28e1698b39f4dcebf1de2a2249a53cc27e",
+   "bytes": 2578,
+   "mtime": "2026-08-08T20:55:05"
+  },
+  "protocol3_patient_progress.php": {
+   "sha256": "097fc54015ef36b29b85cd32833f8324dffca9ce822dc40cedc8d8cdd15e68b3",
+   "bytes": 4028,
+   "mtime": "2026-08-10T23:06:56"
+  },
+  "psychiatry_dashboard.php": {
+   "sha256": "6344d655d8e7512130b99b98fddbba2677357f6846631301860ba261ea8836b5",
+   "bytes": 12277,
+   "mtime": "2026-08-09T10:44:24"
+  },
+  "speech_therapy_dashboard.php": {
+   "sha256": "52ed31f687e0a1fa6c1d9bf28b167733b615b0b065e0c25f2f64d626f857707f",
+   "bytes": 4898,
+   "mtime": "2026-08-10T22:55:29"
+  },
+  "surgery_dashboard.php": {
+   "sha256": "91cb21b20d685af8e99ee916060623abf8d8f91ecceafd88b38a8c4d35223d64",
+   "bytes": 10972,
+   "mtime": "2026-08-09T10:22:58"
+  },
+  "tests/registry_gating_test.php": {
+   "sha256": "43ae60ba354014b1ba6a25ac8d4917817869e2d15d550f9fd4de21d3c79171a5",
+   "bytes": 7754,
+   "mtime": "2026-11-23T15:44:47"
+  },
+  "treatment_tracking.php": {
+   "sha256": "22db6d324cdb6ea5b41d082472668d6f5a0c5bb93d2d020b8214a8b2f02287a9",
+   "bytes": 3813,
+   "mtime": "2026-08-08T20:55:46"
+  }
+ }
+}

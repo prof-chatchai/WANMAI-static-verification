@@ -1,0 +1,8 @@
+{
+  "title": "WANMAI static-verification manifest and re-derivation script",
+  "upload_type": "software",
+  "description": "SHA-256 manifest and counting script supporting a two-timepoint source-code verification of a cleft-care information system (BMC MIDM manuscript in preparation). Contains file names, hashes and counts only: no source code, credentials or patient data. Snapshot generated 2026-11-23; the T1 (2026-08-06) state was not preserved.",
+  "creators": [{"name": "Tritham, Chatchai"}],
+  "license": "MIT",
+  "keywords": ["clinical pathways", "cleft lip and palate", "static code analysis", "health information systems", "software verification"]
+}

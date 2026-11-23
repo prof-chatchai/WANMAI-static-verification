@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it using these metadata."
+title: "WANMAI static-verification manifest and re-derivation script"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+authors:
+  - family-names: Tritham
+    given-names: Chatchai
+abstract: "SHA-256 manifest and counting script supporting a two-timepoint source-code verification of a cleft-care information system. Contains no source code, credentials or patient data."
